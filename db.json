@@ -1,9 +1,61 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
+  "quote":{
+  "id": "8d774bfe-0e50-11e7-93ae-92361f002671",
+  "expires_date_time": "2017-04-16T15:30:10Z",
+  "created_date_time": "2017-04-16T15:30:00Z",
+  "deal": {
+    "rate": "1.12",
+    "buy": {
+      "currency": "USD",
+      "amount": "33000.5"
+    },
+    "sell": {
+      "currency": "EUR",
+      "amount": "29570.15"
+    },
+    "source_of_funds": {
+      "option": "Investment Income"
+    },
+    "settlement": {
+      "method": "OLTB",
+      "date": "2017-04-16"
+    }
+  },
+  "payments": [
+    {
+      "amount": "30000",
+      "currency": "USD",
+      "payment_date": "2017-04-19",
+      "recipient": {
+        "id": "4d774bfe-0e50-11e7-93ae-92361f002671"
+      },
+      "payment_reference": "property 123 deposit payment",
+      "transfer_reason": {
+        "option": "Property purchase"
+      },
+      "fee": {
+        "amount": "56.68",
+        "currency": "USD"
+      }
+    },
+    {
+      "amount": "3000.5",
+      "currency": "USD",
+      "payment_date": "2017-04-19",
+      "recipient": {
+        "id": "73da94f0-57f0-11e7-907b-a6006ad3dba0"
+      },
+      "payment_reference": "property tax",
+      "transfer_reason": {
+        "option": "Property purchase"
+      },
+      "fee": {
+        "amount": "56.68",
+        "currency": "USD"
+      }
+    }
+  ]
+},
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
